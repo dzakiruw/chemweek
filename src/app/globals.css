@@ -31,3 +31,22 @@ body {
     text-wrap: balance;
   }
 }
+
+.bg-opacity-50 {
+  opacity: 0.5;
+}
+
+.bg-blend-exclusion {
+  mix-blend-mode: exclusion;
+}
+
+.text-stroke {
+  color: #FCE768;
+  font-weight: bold;
+  text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
