@@ -1,14 +1,16 @@
 import React from 'react';
-import Head from '../components/first';
-import SecondSection from '../components/second';
+import HeadSection from '../components/landingPage/first';
+import SecondSection from '../components/landingPage/second';
+import Competition from '@/components/landingPage/Competition';
+import Contacts from '@/components/landingPage/Contacts';
 
 const Home = () => {
   return (
     <div className="bg-gray-100 min-h-screen">
-      <Head />
-      <div className="bg-gray-100 min-h-screen">
-        <SecondSection />
-      </div>
+      <HeadSection />
+      <SecondSection />
+      <Competition />
+      <Contacts />
     </div>
   );
 };

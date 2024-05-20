@@ -1,8 +1,15 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
+const montserrat = Montserrat({
+  weight: ['400', '600', '700'],
+  display: 'swap',
+  subsets: ["latin"],
+  variable: '--font-montserrat',
+
+})
 
 export const metadata: Metadata = {
   title: "Chem Week",
@@ -20,7 +27,7 @@ export default function RootLayout({
         <title>Chem Week</title>
         <link rel="icon" href="/logo.png" />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={montserrat.className}>{children}</body>
     </html>
   );
 }
