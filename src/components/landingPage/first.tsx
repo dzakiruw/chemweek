@@ -1,11 +1,8 @@
-import First from 'next/head';
+import React from "react";
 
 export default function Home() {
   return (
     <div className="relative min-h-screen bg-gradient-to-b from-blue-200 to-blue-400 flex flex-col items-center justify-center overflow-hidden">
-      <First>
-        <title>Chemistry Week</title>
-      </First>
       <div className="text-center z-10">
         <div className="relative mb-5 mt-5"> 
           <img src="/center-star.png" alt="Top Star" className="absolute left-1/2 transform -translate-x-1/2 w-80 md:w-112 -mt-3"/>

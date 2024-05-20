@@ -3,7 +3,7 @@ import React from 'react';
 const SecondSection = () => {
   return (
     <div className="relative min-h-screen bg-gradient-to-b from-blue-400 to-blue-600 flex items-center justify-center overflow-hidden w-full">
-      <div className="absolute inset-0 w-full h-full bg-no-repeat bg-cover bg-center bg-blend-exclusion" style={{ backgroundImage: "url('/background.png')", backgroundSize: 'contain', opacity: 0.5 }} />
+      <div className="absolute inset-0 w-full h-full bg-no-repeat xl:bg-repeat-x bg-center bg-blend-exclusion" style={{ backgroundImage: "url('/background.png')", backgroundSize: 'contain', opacity: 0.5 }} />
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center text-center md:text-left relative z-10 w-full">
         <div className="flex-shrink-0 mb-6 md:mb-0">
           <img src="/mascot.png" alt="Mascot" className="w-48 md:w-64" />
