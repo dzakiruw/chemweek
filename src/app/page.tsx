@@ -1,14 +1,14 @@
 import React from 'react';
-import HeadSection from '../components/landingPage/first';
-import SecondSection from '../components/landingPage/second';
+import Chemweek from '../components/landingPage/Chemweek';
+import Theme from '../components/landingPage/Theme';
 import Competition from '@/components/landingPage/Competition';
 import Contacts from '@/components/landingPage/Contacts';
 
 const Home = () => {
   return (
     <div className="bg-gray-100 min-h-screen">
-      <HeadSection />
-      <SecondSection />
+      <Chemweek />
+      <Theme />
       <Competition />
       <Contacts />
     </div>

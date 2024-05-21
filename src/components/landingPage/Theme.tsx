@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SecondSection = () => {
+const Theme = () => {
   return (
     <div className="relative min-h-screen bg-gradient-to-b from-blue-400 to-blue-600 flex items-center justify-center overflow-hidden w-full">
       <div className="absolute inset-0 w-full h-full bg-no-repeat xl:bg-repeat-x bg-center bg-blend-exclusion" style={{ backgroundImage: "url('/background.png')", backgroundSize: 'contain', opacity: 0.5 }} />
@@ -28,4 +28,4 @@ const SecondSection = () => {
   );
 }
 
-export default SecondSection;
+export default Theme;
