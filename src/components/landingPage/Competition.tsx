@@ -7,17 +7,17 @@ export default function Competition() {
     const data = [
         {
             title: "National Chemistry Challenge",
-            description: "NCC adalah Olimpiade Kimia Tingkat Nasional untuk SMA/SMK/Sederajat yang Diselenggarakan Oleh Departemen Kimia ITS. Dimana pesertanya adalah pelajar SMA/SMK/MA sederajat kelas X/XI/XII di Indonesia dan masih terdaftar sebagai siswa/i pada saat NCC berlangsung dengan jumlah peserta 2 orang per tim dari sekolah yang sama serta tidak harus dari angkatan yang sama.",
+            description: (<>NCC adalah Olimpiade Kimia Tingkat Nasional untuk <strong> SMA/SMK/Sederajat </strong> yang Diselenggarakan Oleh Departemen Kimia ITS. Dimana pesertanya adalah pelajar SMA/SMK/MA sederajat kelas X/XI/XII di Indonesia dan masih terdaftar sebagai siswa/i pada saat NCC berlangsung dengan jumlah peserta 2 orang per tim dari sekolah yang sama serta tidak harus dari angkatan yang sama.</>),
             button_link: "asd"
         },
         {
             title: "REACTION",
-            description: "Research of Applied Chemistry Competition adalah kompetisi karya tulis ilmiah inovatif tingkat nasional dengan luaran sebuah prototype/poster. Diikuti oleh mahasiswa/i program pendidikan D3/D4/S1",
+            description: (<>Research of Applied Chemistry Competition adalah <strong>kompetisi karya tulis ilmiah inovatif tingkat nasional dengan luaran sebuah prototype/poster.</strong> Diikuti oleh mahasiswa/i program pendidikan D3/D4/S1.</>),
             button_link: "ads"
         },
         {
             title: "SPECTRUM",
-            description: "Acara puncak dari Chemistry Week 16 yang bertujuan untuk memperkenalkan Departemen Kimia ITS melalui rangkaian acara “show” seperti exhibition, talkshow, dll",
+            description: (<>Acara puncak dari Chemistry Week 16 yang bertujuan untuk memperkenalkan Departemen Kimia ITS melalui <strong>rangkaian acara “show” seperti exhibition, talkshow, dll.</strong></>),
             button_link: undefined
         },
     ]
