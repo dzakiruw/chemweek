@@ -8,7 +8,7 @@ import { FaInstagram, FaTiktok } from "react-icons/fa";
 export default function Contacts() {
     useEffect(() => {
         AOS.init({
-            duration: 1000, // Durasi animasi dalam milidetik
+            duration: 1000,
         });
     }, []);
 

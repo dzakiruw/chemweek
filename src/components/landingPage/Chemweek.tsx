@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 export default function Home() {
   useEffect(() => {
     AOS.init({
-      duration: 1000, // Durasi animasi dalam milidetik
+      duration: 1000, 
     });
   }, []);
 
